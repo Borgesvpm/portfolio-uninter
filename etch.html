@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-sketch</title>
-    <link rel="stylesheet" href="styles-etch.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante a compatibilidade com o Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define as configurações da viewport para design responsivo -->
+    <title>Etch-a-sketch</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="styles-etch.css"> <!-- Vincula a folha de estilos externa específica para o Etch-a-sketch -->
 </head>
 
 <body>
-    <h1>Etch-a-sketch</h1>
-    <div id="buttons">
-        <button onclick="createNewBoard()" id="new-board">Define new board</button>
-        <button onclick="resetBoard()" id="reset">Reset</button>
+    <h1>Etch-a-sketch</h1> <!-- Título principal da página -->
+
+    <div id="buttons"> <!-- Contêiner para os botões de controle -->
+        <button onclick="createNewBoard()" id="new-board">Define new board</button> <!-- Botão para criar um novo quadro, aciona a função createNewBoard() -->
+        <button onclick="resetBoard()" id="reset">Reset</button> <!-- Botão para resetar o quadro, aciona a função resetBoard() -->
     </div>
-    <script src="./scripts/etch.js" defer></script>
+
+    <script src="./scripts/etch.js" defer></script> <!-- Inclusão do script JavaScript com defer para carregar após o HTML -->
 </body>
-
-
 
 </html>

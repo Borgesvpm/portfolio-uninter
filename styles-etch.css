@@ -1,65 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&display=swap'); /* Importa a fonte Asap do Google Fonts */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Asap, sans-serif;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    box-sizing: border-box; /* Aplica box-sizing para incluir bordas e padding nas dimensões */
+    font-family: Asap, sans-serif; /* Define a fonte padrão como Asap */
 }
 
-
 h1 {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
-    color: white;
-    background-color: darkcyan;
+    text-align: center; /* Centraliza o texto */
+    font-size: 40px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    padding: 10px; /* Adiciona padding interno */
+    color: white; /* Define a cor do texto como branca */
+    background-color: darkcyan; /* Define o fundo como ciano escuro */
 }
 
 button {
-    background-color: darkcyan;
-    color: white;
-    font-weight: bold;
+    background-color: darkcyan; /* Define a cor de fundo dos botões como ciano escuro */
+    color: white; /* Define a cor do texto como branca */
+    font-weight: bold; /* Define o peso da fonte como negrito */
 }
 
 #new-board {
-    font-size: 30px;
-    padding: 20px;
-    border-radius: 10%;
-
-    position: absolute;
-    top: 250px;
-    right: 50px;
+    font-size: 30px; /* Define o tamanho da fonte */
+    padding: 20px; /* Adiciona padding interno */
+    border-radius: 10%; /* Arredonda os cantos */
+    position: absolute; /* Posiciona o botão de forma absoluta */
+    top: 250px; /* Define a posição do topo */
+    right: 50px; /* Define a posição à direita */
 }
 
 #reset {
-    font-size: 40px;
-    padding: 20px;
-    border-radius: 50%;
-
-    position: absolute;
-    top: 250px;
-    left: 150px;
-
+    font-size: 40px; /* Define o tamanho da fonte */
+    padding: 20px; /* Adiciona padding interno */
+    border-radius: 50%; /* Arredonda completamente os cantos */
+    position: absolute; /* Posiciona o botão de forma absoluta */
+    top: 250px; /* Define a posição do topo */
+    left: 150px; /* Define a posição à esquerda */
 }
 
 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
+    display: flex; /* Aplica um layout flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin: 0px; /* Remove a margem */
+    padding: 0px; /* Remove o padding */
 }
 
 div .square {
-    border: 1px solid black;
-    display: flex;
-    margin: 0px;
-    padding: 10px;
-    transition: background-color 0.5s ease;
+    border: 1px solid black; /* Define uma borda preta ao redor do quadrado */
+    display: flex; /* Aplica um layout flexível */
+    margin: 0px; /* Remove a margem */
+    padding: 10px; /* Adiciona padding interno */
+    transition: background-color 0.5s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
 }
 
 div #square-row1 {
-    margin-top: 30px;
+    margin-top: 30px; /* Adiciona margem superior para separar a linha de cima */
 }

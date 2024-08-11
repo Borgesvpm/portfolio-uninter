@@ -1,119 +1,117 @@
 img {
-    height: auto;
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto; /* Mantém a proporção da altura */
+    width: 300px; /* Define a largura da imagem */
+    display: block; /* Define a exibição como bloco */
+    margin-left: auto; /* Centraliza horizontalmente a imagem */
+    margin-right: auto; /* Centraliza horizontalmente a imagem */
 }
 
 * {
-    color: #444444;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444444; /* Define a cor padrão do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte padrão */
 }
 
 a,
 h1 {
-    text-align: center;
+    text-align: center; /* Centraliza links e títulos */
 }
 
 .code {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; /* Aplica uma fonte monoespaçada para código */
+    font-weight: bold; /* Define o peso da fonte como negrito */
 }
-
 
 html,
 body {
-    background-color: #ffeead;
-    margin: 40px;
+    background-color: #ffeead; /* Define a cor de fundo como amarelo claro */
+    margin: 40px; /* Adiciona margem ao redor */
 }
 
 nav a:hover {
-    color: #0088dd;
+    color: #0088dd; /* Altera a cor do link ao passar o mouse */
 }
 
 .link-container {
-    text-align: center; /* Center the links container */
-    margin: 20px;
+    text-align: center; /* Centraliza o contêiner dos links */
+    margin: 20px; /* Adiciona margem ao redor */
 }
 
 .link-container a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    text-decoration: none;
-    border: 2px solid #444444;
-    color: #444444;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    display: inline-block; /* Exibe os links como blocos inline */
+    padding: 10px 20px; /* Adiciona padding interno */
+    margin: 5px; /* Define margem entre os links */
+    text-decoration: none; /* Remove a sublinha dos links */
+    border: 2px solid #444444; /* Adiciona uma borda ao redor dos links */
+    color: #444444; /* Define a cor do texto dos links */
+    font-size: 16px; /* Define o tamanho da fonte dos links */
+    transition: background-color 0.3s ease; /* Adiciona transição suave na cor de fundo */
 }
 
 .link-container a:hover {
-    background-color: #88ccff; /* Optional hover effect */
+    background-color: #88ccff; /* Altera a cor de fundo ao passar o mouse */
 }
 
 a{
-    color: #00aaff;
+    color: #00aaff; /* Define a cor dos links */
 }
 
 #header{
-    border: 2px solid #444444;
-    color: #444444;
+    border: 2px solid #444444; /* Adiciona uma borda ao cabeçalho */
+    color: #444444; /* Define a cor do texto no cabeçalho */
 }
 
 .contact-container {
-    
-    background-color: #ffeead;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
+    background-color: #ffeead; /* Define o fundo do contêiner de contato */
+    padding: 30px; /* Adiciona padding interno */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor */
+    max-width: 400px; /* Define a largura máxima do contêiner */
+    width: 100%; /* Define a largura como 100% do contêiner pai */
 }
 
 .contact-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+    font-size: 24px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
 }
 
 .contact-container label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
+    display: block; /* Exibe os rótulos como blocos */
+    margin-bottom: 5px; /* Adiciona margem inferior */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: #333; /* Define a cor do texto */
 }
 
 .contact-container input,
 .contact-container textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #333;
+    width: 100%; /* Define a largura dos campos como 100% do contêiner pai */
+    padding: 10px; /* Adiciona padding interno */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+    border: 1px solid #ccc; /* Define uma borda ao redor dos campos */
+    border-radius: 5px; /* Arredonda os cantos */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
 }
 
 .contact-container input:focus,
 .contact-container textarea:focus {
-    border-color: #88ccff;
-    outline: none;
+    border-color: #88ccff; /* Altera a cor da borda ao focar nos campos */
+    outline: none; /* Remove o contorno padrão */
 }
 
 .contact-container button {
-    width: 100%;
-    padding: 10px;
-    background-color: #66ddff;
-    border: none;
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    width: 100%; /* Define a largura do botão como 100% do contêiner pai */
+    padding: 10px; /* Adiciona padding interno */
+    background-color: #66ddff; /* Define a cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda os cantos */
+    color: #ffffff; /* Define a cor do texto como branco */
+    font-size: 16px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
 }
 
 .contact-container button:hover {
-    background-color: #33ccff;
+    background-color: #33ccff; /* Altera a cor de fundo ao passar o mouse */
 }

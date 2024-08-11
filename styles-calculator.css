@@ -1,58 +1,58 @@
 * {
-    box-sizing: border-box;
-    font-family: "Gotham Rounded", sans-serif;
-    font-weight: normal;
+    box-sizing: border-box; /* Define que o box-sizing inclua padding e bordas nas dimensões totais */
+    font-family: "Gotham Rounded", sans-serif; /* Define a fonte padrão como Gotham Rounded */
+    font-weight: normal; /* Define o peso da fonte como normal */
 }
 
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to right, #00AAFF, #00FF6C); /* Aplica um fundo gradiente do azul ao verde */
 }
 
 .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    display: grid; /* Define um layout de grid */
+    justify-content: center; /* Centraliza o grid horizontalmente */
+    align-content: center; /* Centraliza o conteúdo do grid verticalmente */
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
+    grid-template-columns: repeat(4, 100px); /* Define 4 colunas de 100px cada */
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px); /* Define as linhas do grid, a primeira com altura mínima de 120px */
 }
 
 .calculator-grid>button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 1px solid white;
-    outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 2rem; /* Aumenta o tamanho da fonte dos botões */
+    border: 1px solid white; /* Define uma borda branca ao redor dos botões */
+    outline: none; /* Remove o contorno padrão dos botões */
+    background-color: rgba(255, 255, 255, .75); /* Define a cor de fundo com opacidade */
 }
 
 .calculator-grid>button:hover {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .9); /* Clareia a cor de fundo ao passar o mouse */
 }
 
 .span-two {
-    grid-column: span 2;
+    grid-column: span 2; /* Faz o elemento ocupar duas colunas no grid */
 }
 
 .output {
-    grid-column: 1/-1;
-    background-color: rgba(0, 0, 0, .75);
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+    grid-column: 1/-1; /* Faz o elemento ocupar todas as colunas */
+    background-color: rgba(0, 0, 0, .75); /* Define um fundo escuro com opacidade */
+    display: flex; /* Aplica um layout flexível */
+    align-items: flex-end; /* Alinha os itens no final do eixo vertical */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    padding: 10px; /* Adiciona padding interno */
+    word-wrap: break-word; /* Quebra as palavras longas para caberem no contêiner */
+    word-break: break-all; /* Quebra as palavras se necessário */
 }
 
 .output .previous-operand {
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75); /* Define a cor do texto com opacidade */
+    font-size: 1.5rem; /* Define o tamanho da fonte */
 }
 
 .output .current-operand {
-    color: rgba(255, 255, 255, 1);
-    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 1); /* Define a cor do texto totalmente opaca */
+    font-size: 2.5rem; /* Define um tamanho maior para o texto atual */
 }

@@ -2,39 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="styles-calculator.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante a compatibilidade com o Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define as configurações da viewport para design responsivo -->
+    <title>Calculator</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="styles-calculator.css"> <!-- Vincula a folha de estilos externa específica para a calculadora -->
 </head>
 
 <body>
-    <div class="calculator-grid">
-        <div class="output">
-            <div data-previous-operand class="previous-operand"></div>
-            <div data-current-operand class="current-operand"></div>
+    <div class="calculator-grid"> <!-- Contêiner principal para a calculadora, usando layout de grid -->
+        <div class="output"> <!-- Área de saída onde os números e resultados são exibidos -->
+            <div data-previous-operand class="previous-operand"></div> <!-- Exibe o operando anterior -->
+            <div data-current-operand class="current-operand"></div> <!-- Exibe o operando atual -->
         </div>
-        <button data-all-clear class="span-two">AC</button>
-        <button data-delete>DEL</button>
-        <button data-operation>÷</button>
-        <button data-number>1</button>
-        <button data-number>2</button>
-        <button data-number>3</button>
-        <button data-operation>*</button>
-        <button data-number>4</button>
-        <button data-number>5</button>
-        <button data-number>6</button>
-        <button data-operation>+</button>
-        <button data-number>7</button>
-        <button data-number>8</button>
-        <button data-number>9</button>
-        <button data-operation>-</button>
-        <button data-number>.</button>
-        <button data-number>0</button>
-        <button data-equals class="span-two">=</button>
+        <button data-all-clear class="span-two">AC</button> <!-- Botão "AC" para limpar todos os dados, ocupa duas colunas -->
+        <button data-delete>DEL</button> <!-- Botão "DEL" para deletar o último dígito -->
+        <button data-operation>÷</button> <!-- Botão de operação para divisão -->
+        <button data-number>1</button> <!-- Botão numérico para o número 1 -->
+        <button data-number>2</button> <!-- Botão numérico para o número 2 -->
+        <button data-number>3</button> <!-- Botão numérico para o número 3 -->
+        <button data-operation>*</button> <!-- Botão de operação para multiplicação -->
+        <button data-number>4</button> <!-- Botão numérico para o número 4 -->
+        <button data-number>5</button> <!-- Botão numérico para o número 5 -->
+        <button data-number>6</button> <!-- Botão numérico para o número 6 -->
+        <button data-operation>+</button> <!-- Botão de operação para adição -->
+        <button data-number>7</button> <!-- Botão numérico para o número 7 -->
+        <button data-number>8</button> <!-- Botão numérico para o número 8 -->
+        <button data-number>9</button> <!-- Botão numérico para o número 9 -->
+        <button data-operation>-</button> <!-- Botão de operação para subtração -->
+        <button data-number>.</button> <!-- Botão numérico para o ponto decimal -->
+        <button data-number>0</button> <!-- Botão numérico para o número 0 -->
+        <button data-equals class="span-two">=</button> <!-- Botão "=" para calcular o resultado, ocupa duas colunas -->
     </div>
-    <script src="./scripts/calculadora-tut.js" defer></script>
+    <script src="./scripts/calculadora-tut.js" defer></script> <!-- Inclusão do script JavaScript com defer para carregar após o HTML -->
 </body>
 
 </html>

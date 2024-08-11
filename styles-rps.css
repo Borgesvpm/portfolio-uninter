@@ -1,116 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&display=swap'); /* Importa a fonte Asap do Google Fonts novamente, caso não tenha sido aplicada anteriormente */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    box-sizing: border-box; /* Aplica box-sizing para incluir bordas e padding nas dimensões */
 }
 
 body {
-    background-color: #25272E;
+    background-color: #25272E; /* Define a cor de fundo do corpo como cinza escuro */
 }
 
 img {
-    width: 100px;
-    height: auto;
+    width: 100px; /* Define a largura das imagens */
+    height: auto; /* Mantém a proporção da altura */
 }
 
 header {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #ffffff; /* Define o fundo do cabeçalho como branco */
+    padding: 20px; /* Adiciona padding interno */
 }
 
 header>h1 {
-    color: #25272E;
-    text-align: center;
-    font-family: Asap, sans-serif;
+    color: #25272E; /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    font-family: Asap, sans-serif; /* Aplica a fonte Asap */
 }
 
 .scoreboard {
-    margin: 20px auto;
-    border: 3px solid white;
-    border-radius: 10px;
-    width: 200px;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    padding: 15px 20px;
-    font-family: Asap, sans-serif;
-    position: relative;
+    margin: 20px auto; /* Define a margem ao redor do placar */
+    border: 3px solid white; /* Define uma borda branca */
+    border-radius: 10px; /* Arredonda os cantos */
+    width: 200px; /* Define a largura do placar */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 40px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 20px; /* Adiciona padding interno */
+    font-family: Asap, sans-serif; /* Aplica a fonte Asap */
+    position: relative; /* Define posição relativa para facilitar o posicionamento dos rótulos */
 }
 
 .badge {
-    background-color: #E25840;
-    color: white;
-    font-size: 14px;
-    padding: 2px 10px;
-    font-family: Asap, sans-serif;
+    background-color: #E25840; /* Define a cor de fundo da badge como vermelho */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 14px; /* Define o tamanho da fonte */
+    padding: 2px 10px; /* Adiciona padding interno */
+    font-family: Asap, sans-serif; /* Aplica a fonte Asap */
 }
 
 #user-label {
-    position: absolute;
-    top: 30px;
-    left: -25px;
+    position: absolute; /* Posiciona o rótulo de forma absoluta */
+    top: 30px; /* Define a posição do topo */
+    left: -25px; /* Define a posição à esquerda */
 }
 
 #computer-label {
-    position: absolute;
-    top: 30px;
-    right: -30px;
+    position: absolute; /* Posiciona o rótulo de forma absoluta */
+    top: 30px; /* Define a posição do topo */
+    right: -30px; /* Define a posição à direita */
 }
 
 .result {
-    font-size: 40px;
-    color: white;
+    font-size: 40px; /* Define o tamanho da fonte */
+    color: white; /* Define a cor do texto como branco */
 }
 
 .result>p {
-    text-align: center;
-    font-weight: bold;
-    font-family: Asap, sans-serif;
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    font-family: Asap, sans-serif; /* Aplica a fonte Asap */
 }
 
 .choices {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 5px;
-
+    display: flex; /* Aplica um layout flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin-top: 50px; /* Adiciona margem superior */
+    gap: 5px; /* Define o espaço entre os itens */
 }
 
 .choice {
-    text-align: center;
-    padding: 10px;
-    margin: 0 20px;
-    border: 4px solid white;
-    border-radius: 50%;
-    transition: all 0.3s ease;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona padding interno */
+    margin: 0 20px; /* Define margens laterais */
+    border: 4px solid white; /* Define uma borda branca */
+    border-radius: 50%; /* Arredonda os cantos */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para todas as propriedades */
 }
 
 .choice:hover {
-    cursor: pointer;
-    background-color: #151515;
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    background-color: #151515; /* Escurece o fundo ao passar o mouse */
 }
 
 #action-message {
-    text-align: center;
-    color: white;
-    font-family: Asap, sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define a cor do texto como branco */
+    font-family: Asap, sans-serif; /* Aplica a fonte Asap */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    margin-top: 20px; /* Adiciona margem superior */
 }
 
 .green-glow {
-    border: 4px solid #4dcc7d;
-    box-shadow: 0 0 10px #31b43a;
+    border: 4px solid #4dcc7d; /* Define a borda com cor verde */
+    box-shadow: 0 0 10px #31b43a; /* Adiciona sombra verde ao redor */
 }
 
 .red-glow {
-    border: 4px solid #fc121b;
-    box-shadow: 0 0 10px #d01115;
+    border: 4px solid #fc121b; /* Define a borda com cor vermelha */
+    box-shadow: 0 0 10px #d01115; /* Adiciona sombra vermelha ao redor */
 }
 
 .gray-glow {
-    border: 4px solid #464647;
-    box-shadow: 0 0 10px #25292b;
+    border: 4px solid #464647; /* Define a borda com cor cinza */
+    box-shadow: 0 0 10px #25292b; /* Adiciona sombra cinza ao redor */
 }

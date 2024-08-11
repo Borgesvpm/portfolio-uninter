@@ -2,42 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, paper, scissors!</title>
-    <link rel="stylesheet" href="styles-rps.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante a compatibilidade com o Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define as configurações da viewport para design responsivo -->
+    <title>Rock, paper, scissors!</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="styles-rps.css"> <!-- Vincula a folha de estilos externa específica para este jogo -->
 </head>
 
 <body>
-    <header>
-        <h1>Rock, Paper, Scissors</h1>
+    <header> <!-- Cabeçalho da página -->
+        <h1>Rock, Paper, Scissors</h1> <!-- Título principal da página -->
     </header>
 
-    <div class="scoreboard">
-        <div id="user-label" class="badge">user</div>
-        <div id="computer-label" class="badge">comp</div>
-        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    <div class="scoreboard"> <!-- Seção para exibir o placar do jogo -->
+        <div id="user-label" class="badge">user</div> <!-- Rótulo para o placar do usuário -->
+        <div id="computer-label" class="badge">comp</div> <!-- Rótulo para o placar do computador -->
+        <span id="user-score">0</span>:<span id="computer-score">0</span> <!-- Placar inicial do jogo (0:0) -->
     </div>
 
-    <div class="result">
-        <p>Paper covers rock. You win!</p>
+    <div class="result"> <!-- Seção para exibir o resultado de cada rodada -->
+        <p>Paper covers rock. You win!</p> <!-- Exemplo de mensagem de resultado após uma rodada -->
     </div>
 
-    <div class="choices">
-        <div id="r" class="choice">
-            <img src="./attachments/rock-player.png" alt="rock">
+    <div class="choices"> <!-- Seção para as opções de escolha do jogador -->
+        <div id="r" class="choice"> <!-- Escolha "rock" -->
+            <img src="./attachments/rock-player.png" alt="rock"> <!-- Imagem representando "rock" -->
         </div>
-        <div id="p" class="choice">
-            <img src="./attachments/paper-player.png" alt="paper">
+        <div id="p" class="choice"> <!-- Escolha "paper" -->
+            <img src="./attachments/paper-player.png" alt="paper"> <!-- Imagem representando "paper" -->
         </div>
-        <div id="s" class="choice">
-            <img src="./attachments/scissors-player.png" alt="scissors">
+        <div id="s" class="choice"> <!-- Escolha "scissors" -->
+            <img src="./attachments/scissors-player.png" alt="scissors"> <!-- Imagem representando "scissors" -->
         </div>
     </div>
 
-    <p id="action-message">Make your move.</p>
-    <script src="./scripts/rps-app.js" defer></script>
+    <p id="action-message">Make your move.</p> <!-- Mensagem para o jogador tomar sua ação -->
+
+    <script src="./scripts/rps-app.js" defer></script> <!-- Inclusão do script JavaScript com defer para carregar após o HTML -->
 </body>
 
 </html>
