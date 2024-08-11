@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: darkcyan;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}
+
+#new-board {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10%;
+
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+
+#reset {
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 250px;
+    left: 150px;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+div .square {
+    border: 1px solid black;
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+}
+
+div #square-row1 {
+    margin-top: 30px;
+}
